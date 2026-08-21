@@ -2,12 +2,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
     background-color: #555;
-    color: #fff
+    color: #fff;
 }
 
 #countingButton {
     border-radius: 50%;
     background-color: #363;
     color: #8b8;
+    transform:scale(2.5);
 }
